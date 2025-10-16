@@ -12,7 +12,7 @@ import SignUp from "./pages/Auth/SignUp";
 import Home from "./pages/DashBoard/Home";
 import Income from "./pages/DashBoard/Income";
 import Expense from "../../../Backend/models/Expense";
-import UserProvider from "./context/UserContext";
+import UserProvider from "./context/userContext";
 
 export const App = () => {
   return (
