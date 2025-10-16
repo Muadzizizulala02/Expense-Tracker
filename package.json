@@ -1,0 +1,22 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Frontend/expense-tracker && npm run build --prefix Frontend/expense-tracker",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muadzizizulala02/Expense-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muadzizizulala02/Expense-Tracker/issues"
+  },
+  "homepage": "https://github.com/Muadzizizulala02/Expense-Tracker#readme"
+}

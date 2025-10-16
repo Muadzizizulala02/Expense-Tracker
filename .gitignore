@@ -1,0 +1,12 @@
+# Dependencies
+/node_modules
+/Frontend/expense-tracker/node_modules
+/Backend/node_modules
+
+# Production build folder
+/Frontend/expense-tracker/build
+
+# Environment variables
+.env
+/Backend/.env
+

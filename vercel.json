@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Backend/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "Frontend/expense-tracker/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "Frontend/expense-tracker/build"
+      }
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/Backend/server.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
