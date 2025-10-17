@@ -32,9 +32,9 @@ app.use("/api/v1/dashboard", dashboardRoutes);
 // Serve uploads folder
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
-// // for local
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// // // for local
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 // for vercel
-// module.exports = app;
+module.exports = app;
