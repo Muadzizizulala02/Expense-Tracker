@@ -11,7 +11,8 @@ import Login from "./pages/Auth/Login";
 import SignUp from "./pages/Auth/SignUp";
 import Home from "./pages/DashBoard/Home";
 import Income from "./pages/DashBoard/Income";
-import Expense from "../../../Backend/models/Expense";
+import Expense from "./pages/DashBoard/Expense";
+
 import UserProvider from "./context/userContext";
 
 export const App = () => {
