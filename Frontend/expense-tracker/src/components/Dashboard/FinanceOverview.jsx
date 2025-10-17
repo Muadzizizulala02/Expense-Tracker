@@ -1,5 +1,5 @@
 import React from "react";
-import CustomPieChart from "../charts/CustomPieChart";
+import CustomPieChart from "../Charts/CustomPieChart";
 
 
 const FinanceOverview = ({ totalBalance, totalIncome, totalExpense }) => {
